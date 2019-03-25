@@ -1,13 +1,14 @@
 <?php
-$department = array(
+$departments = array (
   // tableau associatif
   // l'index est représenté par les chiffres du département et la valeur par leur nom.
   // on met la valeur entre quote car c'est une chaine de caractère
-  59 => 'Nord',
-  60 => 'Oise',
-  62 => 'Pas-de-Calais',
-  80 => 'Sommes',
-  02 => 'Aisne',
+  //Il faut mettre des quotes aux clés car sinon il n'affiche pas le
+  '59' => 'Nord',
+  '60' => 'Oise',
+  '62' => 'Pas-de-Calais',
+  '80' => 'Somme',
+  '02' => 'Aisne',
 )
 ?>
 <!DOCTYPE html>
@@ -21,8 +22,8 @@ $department = array(
 <!--foreach est une sorte de boucle for mais spécialisée dans les tableaux.
 foreach va passer en revue chaque ligne du tableau, et lors de chaque passage,
 elle va mettre la valeur de cette ligne dans une variable temporaire (par exemple $element).  -->
-<?php foreach ($department as $element){ ?>
-  <p><?= $element; ?></p>
+<?php foreach ($departments as $department){ ?>
+  <p><?= $department; ?></p>
 <?php } ?>
 
   </body>

@@ -8,6 +8,8 @@ $key = array_search('aout', $month);
 // le 1 permet de dire que l'on modifie un index à partir du 7eme index
 // on met ensuite le mot qu'on veut rajouter içi août avec un accent
 array_splice($month, 7, 1, 'août');
+// CORRECTION :
+$month[7] = 'Août';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

@@ -8,6 +8,7 @@ $month = array ('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet'
   <head>
     <meta charset="utf-8" />
     <title>Exercice 1 partie 5 php</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 <p>Créer un tableau months et l'initialiser avec les valeurs suivantes :</p>
